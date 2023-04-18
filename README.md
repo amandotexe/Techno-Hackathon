@@ -1,7 +1,7 @@
 <p align="center"><img src="carinsurance.png" height="340px"><br></p>
 <p align="center"><h1>Car Dekhliya</h1></p>
 
-An AI tool that streamlines your car insurance process by detecting damages with the most accuracy
+An AI tool that streamlines your car insurance process by detecting damages with the most accuracy.
 
 <h2>Table of Contents</h2>
 - <u>Background</u>
