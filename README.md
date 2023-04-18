@@ -12,7 +12,7 @@ An AI tool that streamlines your car insurance process by detecting damages with
 - <u>License</u>
 
 <h2>Background</h2>
-Car damages can be a major safety hazard if not detected and repaired in time. However, detecting damages in cars can be a tedious and time-consuming task for humans. This is where machine learning can be of great help. By training a machine learning model on a dataset of car images with damages, we can develop an automated system for detecting damages in cars.
+Car damages can be a major safety hazard if not detected and repaired in time. However, detecting damages in cars can be a tedious and time-consuming task for humans. This is where machine learning can be of great help. By training a machine learning model on a dataset of car images with damages, we can develop an automated system for detecting damages in cars. The system can also aid in the decision-making process by providing detailed information on the severity and location of damages.
 
 <h2>Installation</h2>
 To install the necessary dependencies for this project, run the following command:
