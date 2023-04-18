@@ -1,6 +1,5 @@
-<p align="center"><img src="carinsurance.png" height="340px"><br>
-</p>
-<h1 style="text-align:center;">Car Dekhliya</h1>
+<p align="center"><img src="carinsurance.png" height="340px"><br></p>
+<p align="center"><h1>Car Dekhliya</h1></p>
 
 An AI tool that streamlines your car insurance process by detecting damages with the most accuracy
 
@@ -12,7 +11,7 @@ An AI tool that streamlines your car insurance process by detecting damages with
 - <u>License</u>
 
 <h2>Background</h2>
-Car damages can be a major safety hazard if not detected and repaired in time. However, detecting damages in cars can be a tedious and time-consuming task for humans. This is where machine learning can be of great help. By training a machine learning model on a dataset of car images with damages, we can develop an automated system for detecting damages in cars. The system can also aid in the decision-making process by providing detailed information on the severity and location of damages.
+Car damages can be a major safety hazard if not detected and repaired in time. However, detecting damages in cars can be a tedious and time-consuming task for humans. This is where machine learning can be of great help. By training a machine learning model on a dataset of car images with damages, we can develop an automated system for detecting damages in cars.
 
 <h2>Installation</h2>
 To install the necessary dependencies for this project, run the following command:
@@ -26,7 +25,7 @@ To use the car damage detection model, follow these steps:
 
 - Clone this repository
 - Install the necessary dependencies
-- Run the car_damage_detection.py script
+- Run the prediction_engine.py script
 - Provide the path to the image you want to test
 - The script will output whether the car has damages or not
 
