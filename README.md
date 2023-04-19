@@ -8,6 +8,7 @@ An AI tool that streamlines your car insurance process by detecting damages with
 - [Installation](#installation)
 - [Usage](#usage)
 - [API](#api)
+- [TODO](#todo)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -36,7 +37,7 @@ model = get_yolov5(input_image)
 print(model)
 ```
 <h2>API</h2>
-The POST methods in the app.py file:
+The POST methods in the `app.py` file:
 
 ```python
 "/obj-to-json"
@@ -63,8 +64,26 @@ This will return the predictions in a JSON format in the response body
 "/obj-to-img"
 ```
 This route will return the resulting image with bounding box around the detected damage area.
+<p align="left"><img src="detected.png" height="340px"><br></p>
 
+and finally,
+```python
+"/severity"
+```
+This route returns the severity of the damage into 3 classes, `minor`, `moderate`, `severe`.
+```json
+{
+  "result": {
+    "severity": "minor"
+  }
+}
+```
 
+<h2>TODO</h2>
+
+- [x] Percentage value of damage on a vechicle
+- [ ] Generalize the model for any damaged object
+- [ ] Add a ChatGPT powered chatbot that assists the customer throughout the process
 
 <h2>Contributing</h2>
 We welcome contributions to this project. To contribute, please fork this repository, make your changes, and submit a pull request.
