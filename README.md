@@ -74,7 +74,7 @@ This route returns the severity of the damage into 3 classes, `minor`, `moderate
 ```json
 {
   "result": {
-    "severity": "minor"
+    "severity": "severe"
   }
 }
 ```
